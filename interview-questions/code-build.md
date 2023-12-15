@@ -4,7 +4,7 @@ AWS CodeBuild is a fully managed continuous integration service that compiles so
 ### 2. How does CodeBuild work?
 CodeBuild uses build specifications defined in buildspec.yml files. When triggered by a source code change, it pulls the code from the repository, follows the build steps specified, and generates the build artifacts.
 
-### 3. What is a buildspec.yml file?
+### @@@3. What is a buildspec.yml file?
 A buildspec.yml file is used to define the build steps, environment settings, and other instructions for CodeBuild. It's stored in the same repository as the source code and provides the necessary information to execute the build.
 
 ### 4. How can you integrate CodeBuild with CodePipeline?
@@ -55,5 +55,4 @@ Yes, a CodeBuild project can have multiple build projects associated with it. Th
 ### 19. How can you monitor and visualize build performance in CodeBuild?
 You can use Amazon CloudWatch to collect and visualize metrics from CodeBuild, such as build duration, success rates, and resource utilization.
 
-### 20. Explain how CodeBuild pricing works.
-CodeBuild pricing is based on the number of build minutes consumed. A build minute is billed per minute of code build time, including time spent provisioning and cleaning up the build environment.
+including time spent provisioning and cleaning up the build environment.
